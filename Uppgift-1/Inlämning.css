@@ -1,12 +1,26 @@
-.container{
+#Navbar .container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    border: solid 1px;
+    
+    
+    
 }
-
+    
 #Navbar{
-    margin-top: 55px;
-    margin-bottom: 44px;
+    width: 1170px;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    
+    
+
 }
+    
 
 .Navlinks .links a{
     font-size:  17px;
@@ -15,6 +29,7 @@
     margin-right: 25px;
     text-decoration: none;
 }
+    
 
 .fad{
     margin-top: 5px;
@@ -29,4 +44,45 @@
     width: 139px;
     height: 42px;
     font-weight: bold;
+}
+
+#Slider{
+    margin-top: 270px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Header p{
+    margin-top: 34px;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+#Slider .Discription p{
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+.Parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.First-img{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.Second-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 205px;
+}
+
+.Slider-images{
+    margin-top: 0px;
+    margin-left: ;
 }
