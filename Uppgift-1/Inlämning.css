@@ -3,6 +3,9 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+* {
+    box-sizing: border-box;
+  }
 #Navbar .container{
     display: flex;
     justify-content: space-between;
@@ -33,7 +36,6 @@ body{
     margin-right: 25px;
     text-decoration: none;
 }
-    
 
 .fad{
     margin-top: 5px;
@@ -105,7 +107,7 @@ body{
     margin-top: 235px;
 }
 
-#Slider .container .Slider-images SI-1{
+#Slider .container .Slider-images .SI-1{
 margin: auto;
 border: black;
 }
@@ -118,5 +120,42 @@ border: black;
     font-weight: bold;
     background-color: #f55d67;
     color:#Ffff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.grid{
+    width: 1170px;
+    height:545px;
+    border:solid black 1px;
+    margin:auto;
+    align-items: center;
+    margin-left: 215px;
+    margin-top: 25px;
+   
+}
+
+.col-1{
+    width: 37%;
+    height:61%;
+    
+}
+
+.col-1 .Header-2 .h1{
+    width: 91%;
+    height: 57%;
+    margin-bottom: 40px;
+    font-size: 48;
+    font-weight: bold;
+    font-family: Poppins;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.col-1 .Paragraph .description{
+    font-size: 18px;
+    font-family: Roboto;
+    height:36%;
+    width:100%;
+    
 
 }
