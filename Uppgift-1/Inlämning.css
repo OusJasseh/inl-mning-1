@@ -1,5 +1,6 @@
 body{
-    width: 1887px;
+    width: 1660px;
+    height: 4400px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -123,39 +124,79 @@ border: black;
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
+#box-1 {
+    
+    }
+#box-2{
+        
+        }
+#box-3{
+
+}
+#box-4{background-color:}
+#box-5{background-color: green;}
+#box-6{background-color: orange;}
+
 .grid{
-    width: 1170px;
-    height:545px;
-    border:solid black 1px;
-    margin:auto;
-    align-items: center;
-    margin-left: 215px;
-    margin-top: 25px;
-   
+    display: grid;
+    grid-template-columns:444px 261px 261px;
+    grid-template-rows: 237px 237px;
+    margin-left: 245px;
+    gap: 45px;
+    
+    margin-top: 10px;
 }
 
-.col-1{
-    width: 37%;
-    height:61%;
+
+#box-1 h2{
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: bold;
     
 }
 
-.col-1 .Header-2 .h1{
-    width: 91%;
-    height: 57%;
-    margin-bottom: 40px;
-    font-size: 48;
-    font-weight: bold;
-    font-family: Poppins;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.Paragraph{
+    font-size: 18px;
+    font-family: roboto ;
+    margin-bottom: 35px ;
+}
+#image-b{
+    height: 42%;
+    width: 100%;
 }
 
-.col-1 .Paragraph .description{
+
+
+#fastpage h5{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.box{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#image-c{
+    height: 42%;
+    width: 100%;
+}
+
+#Site-Ranking{
+    height: 58%;
+    width: 100%;
+}
+
+#site-ranking h6{
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+#site-ranking .Paragraph{
     font-size: 18px;
     font-family: Roboto;
-    height:36%;
-    width:100%;
-    
-
 }
